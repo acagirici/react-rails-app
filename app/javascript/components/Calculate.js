@@ -1,18 +1,11 @@
 import React, { Component } from 'react'
 
-class Calculate extends Component {
-    constructor(props){
-        super(props)
-    }
-
-    render() {
-        return(
-            <div>
-                Calculating...<br></br>
-                NOW!!
-            </div>
-        )
-    }
+const Calculate = (props) => {
+    return(
+        <div>
+            <h1>How Much {props.active_currency.name} Do You Own?</h1>
+        </div>
+    )
 }
 
 export default Calculate
