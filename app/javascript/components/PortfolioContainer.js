@@ -29,22 +29,9 @@ class PortfolioContainer extends Component {
                 search_results: [...data.data.currencies]
             })
         })
-        .catch((data) => {
-            
-        })
+        .catch((err) => console.log(err))
         console.log(this.state.search_results)
     }
-
-    // handleSelect(e){
-    //     e.preventDefault()
-    //     const id = e.target.getAttribute("data-id")
-    //     const activeCurrency = this.state.search_results.filter(item => item.id == parseInt(id))
-    //     this.setState({
-    //         activeCurrency: activeCurrency[0],
-    //         search_results: []
-    //     })
-        
-    // }
 
     handleSelect = (curr, e) => {
         e.preventDefault()
