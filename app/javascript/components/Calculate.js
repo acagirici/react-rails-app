@@ -3,7 +3,10 @@ import React, { Component } from 'react'
 const Calculate = (props) => {
     return(
         <div>
-            <h1>How Much {props.active_currency.name} Do You Own?</h1>
+            <h1>
+                Let's calculate your {props.active_currency.name}  
+                ({props.active_currency.currency_symbol})
+            </h1>
         </div>
     )
 }
