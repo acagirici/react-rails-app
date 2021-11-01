@@ -44,10 +44,23 @@ class PortfolioContainer extends Component {
         })
       }
 
+    handleSubmit = () => {
+
+    }  
+
+    handleAmount = () => {
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+    }
+
     render() {
         const calSearch = this.state.active_currency ? 
         < Calculate 
             active_currency={this.state.active_currency} 
+            handleChange={this.handleAmount}
+            handleSubmit={this.handleSubmit}
+            amount={this.state.amount}    
                 /> : 
         <Search 
             handleSelect={this.handleSelect} 
