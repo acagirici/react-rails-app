@@ -155,3 +155,7 @@
     float:right;
     font-size:12px;
   }
+
+  .form-group {
+    color: blue;
+  }
