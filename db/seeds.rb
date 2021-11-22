@@ -17,7 +17,6 @@ currencies = Currency.create([
     { name: 'Dash', max_supply: 18900000, currency_symbol: 'DASH', slug: 'dash' },
     { name: 'Litecoin', max_supply: 84000000, currency_symbol: 'LTC', slug: 'litecoin' },
     { name: 'Bitcoin Gold', max_supply: 21000000, currency_symbol: 'BTG', slug: 'bitcoin-gold' },
-    { name: 'IOTA', max_supply: 2779530283, currency_symbol: 'MIOTA', slug: 'iota' },
     { name: 'Cardano', max_supply: 45000000000, currency_symbol: 'ADA', slug: 'cardano' },
     { name: 'Monero', max_supply: 15428882, currency_symbol: 'XMR', slug: 'monero' },
     { name: 'Ethereum Classic', max_supply: 98020230, currency_symbol: 'ETC', slug: 'ethereum-classic' },
