@@ -49,8 +49,6 @@ currencies = Currency.create([
     { name: 'Power Ledger', max_supply: 1000000000, currency_symbol: 'POWR', slug: 'power-ledger' },
     { name: 'Dogecoin', max_supply: 112176404356, currency_symbol: 'DOGE', slug: 'dogecoin' },
     { name: 'MaidSafeCoin', max_supply: 452552412, currency_symbol: 'MAID', slug: 'maidsafecoin' },
-    { name: 'Siacoin', max_supply: 31301466519, currency_symbol: 'SC', slug: 'siacoin' },
-    { name: 'DigixDAO', max_supply: 2000000, currency_symbol: 'DGD', slug: 'digixdao' },
     { name: 'Binance Coin', max_supply: 199013968, currency_symbol: 'BNB', slug: 'binance-coin' },
     { name: 'Veritaseum', max_supply: 100000000, currency_symbol: 'VERI', slug: 'veritaseum' },
     { name: 'Factom', max_supply: 8745102, currency_symbol: 'FCT', slug: 'factom' },
