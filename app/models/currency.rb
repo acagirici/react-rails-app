@@ -1,4 +1,7 @@
 class Currency < ApplicationRecord
+    belongs_to :user
+
+
     def calculate_value(amount)
         current_price.to_f * amount.to_f
     end
