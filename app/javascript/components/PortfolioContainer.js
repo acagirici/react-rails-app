@@ -93,8 +93,7 @@ class PortfolioContainer extends Component {
                     {calSearch}
                 </div>
                 <div className="right">
-                    <Portfolio portfolio={this.state.portfolio}/>,
-                    <NavBar />
+                    <Portfolio portfolio={this.state.portfolio}/>
                 </div>
             </div>
         )
