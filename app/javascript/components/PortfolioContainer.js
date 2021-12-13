@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Search from './Search'
 import Calculate from './Calculate'
 import Portfolio from './Portfolio'
+import NavBar from './NavBar'
 import axios from 'axios'
 
 class PortfolioContainer extends Component {
@@ -85,11 +86,12 @@ class PortfolioContainer extends Component {
             searchResults={this.state.search_results} 
             handleChange={this.handleChange} 
                 />
-
+       
         return(
             <div>
                 <div>
-                    {calSearch}
+                    {calSearch},
+                    < NavBar />
                 </div>
                 <div className="right">
                     <Portfolio portfolio={this.state.portfolio}/>
