@@ -94,7 +94,7 @@ class PortfolioContainer extends Component {
                 </div>
                 <div className="right">
                     <Portfolio portfolio={this.state.portfolio}/>,
-                    
+                    <NavBar />
                 </div>
             </div>
         )
