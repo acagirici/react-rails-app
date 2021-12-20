@@ -8,6 +8,9 @@ class User {
         password: ''
     }
 
+    onChange = () => {
+        
+    }
 
     render() {
         <div>
