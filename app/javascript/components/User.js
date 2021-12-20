@@ -9,7 +9,11 @@ class User {
     }
 
     onChange = () => {
-        
+
+    }
+
+    handleSubmit = () => {
+
     }
 
     render() {
