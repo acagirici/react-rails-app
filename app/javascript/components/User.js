@@ -8,9 +8,15 @@ class User {
         password: ''
     }
 
-    
-    render() {
 
+    render() {
+        <div>
+            <form>
+                <label>Username:</label>
+                <input type='text' />
+                
+            </form>
+        </div>
     }
 }
 
