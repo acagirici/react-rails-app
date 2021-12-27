@@ -17,7 +17,7 @@ class User {
             <form>
                 <label>Username:</label>
                 <input type='text' />
-                <label>Password:</label>
+                
                 
             </form>
         </div>
