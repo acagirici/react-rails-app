@@ -15,7 +15,6 @@ class User {
     render() {
         <div>
             <form>
-                <label>Username:</label>
                 
                 
             </form>
