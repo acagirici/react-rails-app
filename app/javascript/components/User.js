@@ -14,10 +14,7 @@ class User {
 
     render() {
         <div>
-            <form>
-                
-                
-            </form>
+            
         </div>
     }
 }
