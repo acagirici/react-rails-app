@@ -16,7 +16,6 @@ class User {
         <div>
             <form>
                 <label>Username:</label>
-                <input type='text' />
                 
                 
             </form>
