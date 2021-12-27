@@ -5,7 +5,7 @@ class User {
 
     state = {
         username: '',
-        password: ''
+    
     }
 
     onChange = () => {
