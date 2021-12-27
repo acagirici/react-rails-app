@@ -19,8 +19,6 @@ class User {
                 <input type='text' />
                 <label>Password:</label>
                 <input type='text' />
-            
-                <input type='submit' />
             </form>
         </div>
     }
